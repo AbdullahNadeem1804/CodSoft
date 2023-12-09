@@ -1,0 +1,52 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Main section styles */
+main {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.profile-management,
+.job-applications {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-management h2,
+.job-applications h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+}

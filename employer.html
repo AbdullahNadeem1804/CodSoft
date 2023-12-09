@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employer Dashboard</title>
+  <link rel="stylesheet" href="employer.css">
+</head>
+<body>
+  <header>
+    <h1>Employer Dashboard</h1>
+  </header>
+
+  <main>
+    <section class="employer-details">
+      <h2>Account Information</h2>
+      <div class="employer-info">
+        <p>Company Name: XYZ Corporation</p>
+        <p>Email: employer@example.com</p>
+        <p>Phone: 123-456-7890</p>
+        <!-- Additional account information goes here -->
+      </div>
+    </section>
+
+    <section class="job-posting">
+      <h2>Post a New Job</h2>
+      <form action="post_job.php" method="post"> <!-- Replace with your server-side script -->
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="jobTitle" required><br>
+
+        <label for="jobDescription">Job Description:</label><br>
+        <textarea id="jobDescription" name="jobDescription" rows="4" required></textarea><br>
+
+        <label for="jobLocation">Job Location:</label>
+        <input type="text" id="jobLocation" name="jobLocation" required><br>
+
+        <input type="submit" value="Post Job">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Job Board. All rights reserved.</p>
+  </footer>
+</body>
+</html>
